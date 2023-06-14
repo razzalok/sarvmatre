@@ -3,10 +3,11 @@ import {Link} from 'react-router-dom'
 
 const Hero = () => {
   return (
+    
     <div className='flex relative content-around overflow-hidden'>
         <div className='w-[50vw] ml-[5vw]'>
             <h1 className='text-[#2EA990] text-2xl font-sans font-semibold mt-10'>Sarvmatre</h1>
-            <h1 className='text-[#2EA990] text-5xl font-sans font-extrabold  mt-[20vh]'>We Bring S <br/>to the Businesses</h1>
+            <h1 className='text-[#2EA990] text-5xl font-sans font-extrabold  mt-[20vh]'>We Bring Sustainable <br/>to the Businesses</h1>
             <p className='mt-[5vh]'>Empower your business with Sarvmatre - your trusted partner for sustainable growth. Connect seamlessly with suppliers and customers, enhance supply chain management, and achieve your goals with ease. Join our mission to transform the B2B e-commerce landscape and build a better future for all.</p>
             <Button>Button</Button>
         </div>

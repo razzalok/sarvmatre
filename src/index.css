@@ -7,3 +7,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.box {
+  --mask:
+    radial-gradient(41.32px at 50% 52.65px,#000 99%,#0000 101%) calc(50% - 78px) 0/156px 51% repeat-x,
+    radial-gradient(41.32px at 50% -13.65px,#0000 99%,#000 101%) 50% 39px/156px calc(51% - 39px) repeat-x,
+    radial-gradient(41.32px at 50% calc(100% - 52.65px),#000 99%,#0000 101%) calc(50% - 78px) 100%/156px 51% repeat-x,
+    radial-gradient(41.32px at 50% calc(100% + 13.65px),#0000 99%,#000 101%) 50% calc(100% - 39px)/156px calc(51% - 39px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
