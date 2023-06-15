@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom'
 import Button from './shareed/Button'
 import imgabout from '../asset/4380.jpg'
 import BlackCard from './shareed/BlackCard'
